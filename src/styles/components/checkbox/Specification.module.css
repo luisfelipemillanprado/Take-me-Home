@@ -1,0 +1,31 @@
+/*-----------------------------------*/
+.specification_wrapper {
+    /*width: 14.79rem;*/
+    margin-bottom: 1.7rem;
+    border: 0.1rem solid var(--tonality-caqui-11);
+    background-color: var(--just-white);
+    border-radius: 6rem;
+    padding: 0.2rem 1rem 0.2rem 0.22rem;
+    /*background-color: blue;*/
+}
+
+.specification_avatar {
+    width: 2.2rem;
+    height: 2.2rem;
+    background-color: var(--tonality-white-3);
+    border: 0.1rem solid var(--tonality-white-4);
+    margin-right: 0.7rem;
+}
+
+.specification_icon {
+    font-size: 1.6rem;
+    color: var(--tonality-white-5);
+}
+
+/*-------------specifications_column__column_title-------------------*/
+.specification_text {
+    font-size: 1.6rem;
+    font-weight: 400;
+    font-family: var(--font-family-4);
+    color: var(--home-secondary-text);
+}

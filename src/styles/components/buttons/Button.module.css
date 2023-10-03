@@ -1,0 +1,46 @@
+.wrapper_button {
+    width: 100%;
+    /*background-color: aquamarine;*/
+}
+
+.wrapper_button_report_trick {
+    justify-content: flex-end;
+}
+
+.button_more_pets {
+    height: 3.3rem;
+    border: none;
+    color: var(--just-white);
+    font-size: 1.8rem;
+}
+
+.button_report_trick {
+    height: 3.3rem;
+    border: none;
+    color: var(--just-white);
+    font-size: 1.8rem;
+}
+
+.button_more_pets_background_color {
+    background-color: var(--tonality-turquoise-3);
+}
+
+.button_report_trick_background_color {
+    background-color: var(--tonality-purple-3);
+}
+
+.button_more_pets:hover {
+    color: var(--just-white) !important;
+    background-color: var(--tonality-turquoise-2);
+    border: none !important;
+}
+
+.button_report_trick:hover {
+    color: var(--just-white) !important;
+    background-color: var(--tonality-purple-2);
+    border: none !important;
+}
+
+.buttons__more_pets_icon {
+    font-size: 1.8rem;
+}

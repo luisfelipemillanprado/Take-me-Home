@@ -1,0 +1,25 @@
+{
+    "API": {
+        "client_id": "1090302916996-58brhfd2q2nslbbfjens2j9eig8aeklp.apps.googleusercontent.com",
+        "project_id": "proyecto-mascotas-395416",
+        "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+        "token_uri": "https://oauth2.googleapis.com/token",
+        "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+        "client_secret": "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",
+        "redirect_uris": [
+            "https://developers.google.com/oauthplayground"
+        ],
+        "javascript_origins": [
+            "http://localhost:3000"
+        ]
+    },
+    "REFRESH_TOKEN": "1//04oBIYk9jDSnUCgYIARAAGAQSNwF-L9IrcGEfbSTndnAZObfLFAijgGw8ORLwqZS2gxOxWJBejx1KZyX_OtJmDsOaq-EEcfE3x6c",
+    "FOLDERS_IDS": [
+        "1wZNqwcypPbLKu0Ij3r7ivd2BLoZ53Gzu",
+        "1zOnngOh4MhLI0pCRH02MiZ1nbXYxN2Uz",
+        "1svYD7VeXX8o_KKhpVEJGkZEyT4b3-e7a",
+        "1dCMTdoTc8L5h3EDWIeS2dMh4iP2uSboJ",
+        "1CuEYHqBkP8jBX6kO_jnEn9SiDi4W14Zq",
+        "16x_OaILCZTPY3-u_d2nRmu6AN8BGJulc"
+    ]
+}

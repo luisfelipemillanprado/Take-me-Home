@@ -1,0 +1,27 @@
+/*-----------------------------------*/
+.contact_button {
+    width: 3.4rem !important;
+    height: 3.4rem;
+    border: none;
+    border-radius: 2.5rem;
+    box-shadow: none;
+    font-family: var(--font-family-4);
+    font-size: 1.6rem;
+}
+
+.twitter_background_color {
+    background-color: var(--tonality-turquoise-5);
+}
+
+.facebook_background_color {
+    background-color: var(--tonality-turquoise-4);
+}
+
+.whatsapp_background_color {
+    background-color: var(--tonality-green-13);
+}
+
+.contact_icons {
+    color: var(--just-white);
+    font-size: 1.8rem !important;
+}

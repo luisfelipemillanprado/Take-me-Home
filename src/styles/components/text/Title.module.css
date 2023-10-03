@@ -1,0 +1,14 @@
+/*-----------------------------------*/
+.title_container {
+    width: 100%;
+    justify-content: flex-start;
+    margin-bottom: 1.5rem;
+}
+
+/*-------------title_container__title-------------------*/
+.title {
+    font-size: 2rem;
+    font-weight: 500;
+    color: var(--home-secondary-text);
+    font-family: var(--font-family-4);
+}

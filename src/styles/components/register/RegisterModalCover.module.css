@@ -1,0 +1,64 @@
+/*-----------------------------------*/
+.register_modal_cover_section__container_all {
+    width: 100%;
+    transform: translateX(15.6rem);
+    /*background-color: wheat;*/
+}
+
+/*-------------container_all__wrapper_content_text-------------------*/
+.register_modal_cover_section__wrapper_content_text {
+    width: 31.4rem;
+    flex-wrap: nowrap;
+    /*background-color: yellowgreen;*/
+}
+
+/*-------------wrapper_content_text__container_welcome_text_paragrap-------------------*/
+.register_modal_cover_section__container_welcome_text_paragraph {
+    width: 100%;
+    flex-wrap: nowrap;
+    /*background-color: violet;*/
+}
+
+.register_modal_cover_section__container_welcome_text {
+    margin-bottom: 1.5rem;
+}
+
+/*-------------container_welcome_text__welcome_account_text-------------------*/
+.register_modal_cover_section__welcome_account_text {
+    font-size: 3.21rem;
+    font-family: var(--font-family-4);
+    font-weight: 650;
+    letter-spacing: 0.004rem;
+    line-height: normal;
+}
+
+.register_modal_cover_section__welcome_color_text {
+    color: var(--just-white);
+}
+
+.register_modal_cover_section__container_content_paragraph {
+    padding: 0rem 4rem;
+    margin-bottom: 2.4rem;
+    /*background-color: tomato;*/
+}
+
+/*-------------container_welcome_text_paragrap__paragraph-------------------*/
+.register_modal_cover_section__paragraph {
+    flex-wrap: nowrap;
+    font-size: 1.51rem;
+    font-family: var(--font-family-4);
+    font-weight: 370;
+    color: var(--just-white);
+}
+
+/*-------------wrapper_content_text__switch_button-------------------*/
+.register_modal_cover_section__switch_button {
+    font-size: 1.6rem;
+    background: transparent;
+}
+
+.register_modal_cover_section__switch_button:hover {
+    color: var(--just-white) !important;
+    border-color: var(--just-white) !important;
+    background: var(--modal-form-register-background-switch-button);
+}

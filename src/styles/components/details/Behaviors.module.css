@@ -1,0 +1,13 @@
+/*-----------------------------------*/
+.file_behaviors__wrapper_muy_behavior {
+    width: 100%;
+    margin-top: 2rem;
+    align-items: flex-start;
+    /*background-color: burlywood;*/
+}
+
+/*-------------wrapper_muy_behavior__container_row-------------------*/
+.file_behaviors__container_row {
+    width: 100%;
+    /*background-color: yellowgreen;*/
+}

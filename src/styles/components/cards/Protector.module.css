@@ -1,0 +1,42 @@
+/*-----------------------------------*/
+.protector_card {
+    width: 100%;
+    font-family: var(--font-family-4);
+    font-weight: 400;
+    font-size: 1.6rem;
+}
+
+.protector_card_avatar {
+    width: 3.6rem;
+    height: 3.6rem;
+    border: 0.1rem solid var(--tonality-caqui-11);
+    background-color: var(--tonality-white-2);
+}
+
+.protector_card_icon {
+    color: var(--tonality-turquoise-4);
+    font-size: 1.8rem;
+}
+
+.protector_card_title {
+    color: var(--home-secondary-text);
+    font-size: 1.94rem;
+    font-weight: 500;
+}
+
+.protector_container_rate_adoption {
+    justify-content: flex-start;
+    /* background-color: aqua; */
+}
+
+.protector_rate_adoption {
+    font-size: 1.6rem;
+    font-family: var(--font-family-4);
+    color: var(--home-secondary-text);
+    margin-right: 0.4rem;
+}
+
+.protector_rate_adoption_icon {
+    font-size: 1.6rem;
+    font-family: var(--font-family-4);
+}

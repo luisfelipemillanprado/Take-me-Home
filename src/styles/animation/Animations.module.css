@@ -1,0 +1,121 @@
+/*----------------------------Animation-1-Start----------------------------------*/
+/*----------------------------------Cover---------------------------------------*/
+.switchable_cover {
+    transition: all 1.1s cubic-bezier(.75, -0.47, .12, 1.53);
+    transform: translateX(calc(82rem - 31.42rem));
+    transform-origin: center;
+}
+
+/*----------------------------------Form---------------------------------------*/
+.switchable_form {
+    transition: all 1.1s cubic-bezier(.75, -0.47, .12, 1.53);
+    transform: translateX(calc(50.2rem - 82rem));
+    transform-origin: center;
+    z-index: 0;
+}
+
+/*--------------------reverse--------------------------*/
+.switchable_cover_reverse {
+    transition: all .4s cubic-bezier(0.54, -0.02, 0.79, 0.96);
+    transform: none;
+    transform-origin: center;
+    z-index: 3;
+}
+
+.switchable_form_reverse {
+    transition: all .4s cubic-bezier(0.54, -0.02, 0.79, 0.96);
+    transform: none;
+    transform-origin: center;
+}
+
+/*----------------------------Animation-1-End----------------------------------*/
+/*                                                                             */
+/*----------------------------Animation-2-Start--------------------------------*/
+/*------------------------------Cover-Content----------------------------------*/
+.switchable_welcome_back_content {
+    transition: all .4s .1s cubic-bezier(0.54, -0.02, 0.79, 0.96);
+    transform: translateX(calc(15rem - 82rem));
+    transform-origin: center;
+}
+
+/*------------------------------Cover-Content----------------------------------*/
+.switchable_hello_friend_content {
+    transition: all .5s .2s cubic-bezier(0.54, -0.02, 0.79, 0.96);
+    transform: translateX(calc(66.2rem - 82rem));
+    transform-origin: center;
+}
+
+/*--------------------reverse--------------------------*/
+.switchable_welcome_back_content_reverse {
+    transition: all .4s cubic-bezier(0.54, -0.02, 0.79, 0.96);
+    transform: translateX(15.4rem);
+    transform-origin: center;
+}
+
+.switchable_hello_friend_content_reverse {
+    transition: all .4s cubic-bezier(0.54, -0.02, 0.79, 0.96);
+    transform: translateX(calc(82rem - 20rem));
+    transform-origin: center;
+}
+
+/*----------------------------Animation-2-End----------------------------------*/
+/*                                                                             */
+/*----------------------------Animation-3-Start--------------------------------*/
+/*----------------------------Form-Content-Top---------------------------------*/
+.switchable_create_account_text {
+    transition: all .1s .4s cubic-bezier(0.54, -0.02, 0.79, 0.96);
+    transform: translateX(-14.8rem);
+    transform-origin: center;
+}
+
+/*----------------------------Form-Content-Top---------------------------------*/
+.switchable_sign_in_petgram {
+    transition: all .1s .4s cubic-bezier(0.54, -0.02, 0.79, 0.96);
+    transform: translateX(-14.1rem);
+    transform-origin: center;
+}
+
+/*--------------------reverse--------------------------*/
+.switchable_create_account_text_reverse {
+    transition: all .1s .2s cubic-bezier(0.54, -0.02, 0.79, 0.96);
+    transform: translateX(12rem);
+    transform-origin: center;
+}
+
+.switchable_sign_in_petgram_reverse {
+    transition: all .1s .2s cubic-bezier(0.54, -0.02, 0.79, 0.96);
+    transform: translateX(14.1rem);
+    transform-origin: center;
+}
+
+/*----------------------------Animation-3-End----------------------------------*/
+/*                                                                             */
+/*----------------------------Animation-4-Start--------------------------------*/
+/*----------------------------Form-Content-Center------------------------------*/
+.switchable_create_account_input {
+    transition: all .1s .4s cubic-bezier(0.54, -0.02, 0.79, 0.96);
+    transform: translateX(-16.2rem);
+    transform-origin: center;
+}
+
+/*----------------------------Form-Content-Center------------------------------*/
+.switchable_sign_in_petgram_input {
+    transition: all .1s .4s cubic-bezier(0.54, -0.02, 0.79, 0.96);
+    transform: translateX(-15.9rem);
+    transform-origin: center;
+}
+
+/*--------------------reverse--------------------------*/
+.switchable_create_account_input_reverse {
+    transition: all .1s .2s cubic-bezier(0.54, -0.02, 0.79, 0.96);
+    transform: translateX(13.9rem);
+    transform-origin: center;
+}
+
+.switchable_sign_in_petgram_input_reverse {
+    transition: all .1s .2s cubic-bezier(0.54, -0.02, 0.79, 0.96);
+    transform: translateX(16.2rem);
+    transform-origin: center;
+}
+
+/*----------------------------Animation-4-End----------------------------------*/

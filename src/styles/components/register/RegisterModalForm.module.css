@@ -1,0 +1,45 @@
+/*-----------------------------------*/
+.register_modal_form_section__container_all {
+    width: 100%;
+    flex-wrap: nowrap;
+    margin: 0 auto;
+}
+
+/*-------------container_all__wrapper_form_top-------------------*/
+.register_modal_form_section__wrapper_form_top {
+    width: 24.2rem;
+    flex-wrap: nowrap;
+    overflow-x: hidden;
+    /*background-color: aqua;*/
+}
+
+.register_modal_form_section__wrapper_form_center {
+    width: 27.8rem;
+    flex-wrap: nowrap;
+    overflow-x: hidden;
+    /*background-color: cornflowerblue;*/
+}
+
+/*-------------container_all__user_form_item-------------------*/
+.register_modal_form_section__user_form_item {
+    margin-bottom: 1.2rem;
+}
+
+
+/*-------------container_register_modal_user_form__wrapper_form_submit_button------------------*/
+.register_modal_form_section__wrapper_form_submit_button {
+    margin: 0 auto;
+    padding-top: 0.6rem;
+}
+
+/*-------------wrapper_form_submit_button__form_submit_button------------------*/
+.register_modal_form_section__form_submit_button {
+    font-size: 1.6rem;
+    background: var(--tonality-green-11);
+    border: none;
+}
+
+.register_modal_form_section__form_submit_button:hover {
+    color: var(--just-white) !important;
+    background-color: var(--tonality-green-12) !important;
+}

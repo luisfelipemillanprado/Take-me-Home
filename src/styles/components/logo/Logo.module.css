@@ -1,0 +1,18 @@
+/*-----------------------------------*/
+.pet_logo_section__container_all {
+    width: 100%;
+    flex-wrap: nowrap;
+    /* background-color: aquamarine;*/
+}
+
+/*---------------container_all__wrapper_svg--------------------*/
+.pet_logo_section__wrapper_svg {
+    width: 7rem;
+    flex-wrap: nowrap;
+    /*background-color: beige;*/
+}
+
+.pet_logo_section__svg {
+    width: 6rem;
+    height: 6rem;
+}

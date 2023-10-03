@@ -1,0 +1,14 @@
+/*-----------------------------------*/
+.primary_photo_container {
+    width: 33.2rem;
+    height: 33.2rem;
+    border-radius: 2rem;
+}
+
+.primary_photo {
+    width: 33rem;
+    height: 33rem;
+    border: 0.2rem solid var(--tonality-caqui-11);
+    border-radius: 2rem;
+    object-fit: cover;
+}

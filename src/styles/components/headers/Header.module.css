@@ -1,0 +1,13 @@
+/*-----------------------------------*/
+.header_section {
+    width: 100%;
+    /*background-color: rgba(0, 0, 0, 0.459);*/
+}
+
+/*-------------header_section__container_all-------------------*/
+.header_section__container_all {
+    width: 100%;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    /*background-color: antiquewhite;*/
+}

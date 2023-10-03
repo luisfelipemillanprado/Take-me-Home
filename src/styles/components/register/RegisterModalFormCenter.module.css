@@ -1,0 +1,40 @@
+/*-----------------------------------*/
+.register_modal_form_center_section__container_all {
+    width: 27.8rem;
+    height: 15.6rem;
+    transform: translateX(13.9rem);
+    margin-left: 2rem;
+    /*background-color: cadetblue;*/
+}
+
+/*-------------container_all__user_form_item-------------------*/
+.register_modal_form_center_section__user_form_item {
+    margin-bottom: 1rem;
+}
+
+/*-------------user_form_item__user_form_input------------------*/
+.register_modal_form_center_section__user_form_input {
+    width: 27.8rem;
+    height: 4rem;
+    background-color: var(--tonality-white-11);
+    border-radius: 0rem;
+}
+
+.register_modal_form_center_section__user_form_input input {
+    background-color: var(--tonality-white-11);
+    color: var(--home-secondary-text);
+    font-family: var(--font-family-4);
+    font-weight: 370;
+}
+
+/*-------------user_form_input__user_input_icon------------------*/
+.register_modal_form_center_section__user_input_icon {
+    color: var(--tonality-grey-4);
+    margin-right: 0.6rem;
+}
+
+/*-------------user_form_item__forgot_password_link------------------*/
+.register_modal_form_center_section__forgot_password_link {
+    border-bottom: 0.15rem solid var(--tonality-white-12);
+    color: var(--tonality-grey-1);
+}

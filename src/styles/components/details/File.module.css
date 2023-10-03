@@ -1,0 +1,36 @@
+/*-----------------------------------*/
+.file_conatiner {
+    width: 100%;
+    padding: 0rem 0.2rem;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: normal;
+    /*background-color: gray;*/
+}
+
+.file_wrapper_information {
+    width: 100%;
+    /*padding-left: 2.2rem;*/
+    align-items: flex-start;
+    justify-content: flex-start;
+    /*background-color: antiquewhite;*/
+}
+
+.file_wrapper_secondary_information {
+    width: 100%;
+    margin-top: 1.5rem;
+    align-items: flex-start;
+    /*background-color: aqua;*/
+}
+
+.file_wrapper_details {
+    width: 100%;
+    padding-right: 1rem;
+    /*background-color: bisque;*/
+}
+
+.file_wrapper_story_protector {
+    width: 100%;
+    /*padding-left: 1.5rem;
+    /*background-color: blueviolet;*/
+}

@@ -1,0 +1,48 @@
+/*-----------------------------------*/
+.story_container {
+    width: 100%;
+    /*background-color: yellowgreen;*/
+}
+
+/*-------------container_row__story_card-------------------*/
+.story_card {
+    font-family: var(--font-family-4);
+    font-weight: 400;
+}
+
+/*-------------story_card__action_button-------------------*/
+.story_action_button {
+    width: 92% !important;
+    height: 3rem !important;
+    background: none;
+    border: none;
+    box-shadow: none;
+    position: relative;
+}
+
+.story_action_icon {
+    font-size: 1.6rem !important;
+    color: var(--tonality-caqui-7);
+}
+
+.story_avatar {
+    width: 3.6rem;
+    height: 3.6rem;
+    border: 0.1rem solid var(--tonality-caqui-11);
+    background-color: var(--tonality-white-2);
+}
+
+.story_card_meta {
+    font-size: 1.6rem;
+    line-height: 2rem;
+    letter-spacing: 0.04rem;
+}
+
+.story_title {
+    font-size: 1.94rem;
+    font-weight: 500;
+}
+
+.story_card_icon {
+    color: var(--tonality-turquoise-4);
+}

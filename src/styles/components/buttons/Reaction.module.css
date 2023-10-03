@@ -1,0 +1,32 @@
+/*-----------------------------------*/
+.reaction_button {
+    height: 3.5rem;
+    background-color: var(--just-white);
+    border: 0.1rem solid var(--tonality-caqui-11);
+    box-shadow: none;
+    border-radius: 2rem;
+    color: var(--tonality-grey-1);
+    font-family: var(--font-family-4);
+    font-size: 1.6rem;
+    padding-left: 0.3rem;
+}
+
+.reaction_button:hover {
+    background-color: var(--tonality-white-3);
+    color: var(--tonality-grey-1) !important;
+    border: 0.1rem solid var(--tonality-caqui-11) !important;
+}
+
+/*-------------reaction_button__avatar_button-------------------*/
+.reaction__avatar_button {
+    width: 2.7rem;
+    height: 2.7rem;
+    border: 0.1rem solid var(--tonality-white-4);
+    background-color: var(--tonality-white-3);
+}
+
+/*-------------avatar_button__icon_button-------------------*/
+.reaction__icon_button {
+    font-size: 1.6rem;
+    color: var(--tonality-white-5);
+}

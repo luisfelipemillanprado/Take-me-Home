@@ -1,0 +1,27 @@
+/*-----------------------------------*/
+.adopt_button {
+    height: 3.3rem;
+    color: var(--just-white);
+    border: none;
+    font-size: 1.8rem;
+    background-color: var(--tonality-turquoise-3);
+}
+
+.adopt_button:hover {
+    color: var(--just-white) !important;
+    background-color: var(--tonality-turquoise-2);
+    border: none !important;
+}
+
+.button_container_right_icon {
+    margin-left: 0.6rem;
+}
+
+.adopt_button_right_icon {
+
+    transition: all 0.3s;
+}
+
+.adopt_button:hover .adopt_button_right_icon {
+    transform: translateX(0.5rem);
+}

@@ -1,0 +1,49 @@
+/*-----------------------------------*/
+.register_modal_section__register_modal_user {
+    height: auto;
+    top: 5.4rem;
+    padding-bottom: 0rem;
+    overflow-x: hidden;
+}
+
+/*-------------register_modal_user__register_modal_user_content------------------*/
+.register_modal_section__register_modal_user_content {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    /*background-color: burlywood;*/
+    border-radius: 0.8rem;
+}
+
+/*-------------register_modal_user_content__container_content_text------------------*/
+.register_modal_section__container_content_logo_text {
+    --br-pseudo: 0.8rem 0rem 0rem 0.8rem;
+    width: 38.34%;
+    height: 50rem;
+    flex-wrap: nowrap;
+    background-image: url("../../../../public/images/register/temporal.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 0.8rem 0rem 0rem 0.8rem;
+    z-index: 3;
+    overflow-x: hidden;
+}
+
+.register_modal_section__container_content_logo_text::before {
+    content: "";
+    width: 31.46rem;
+    height: 50rem;
+    position: absolute;
+    background-image: linear-gradient(to left bottom, #3bb792, #3ab694, #3ab596, #3ab498, #3bb39aa6, #3bb29ba6, #3bb29c73, #3bb39aa6, #3bb09e, #3ab09f, #3aafa0, #3aaea1);
+    opacity: 0.95;
+    border-radius: var(--br-pseudo);
+    z-index: -1;
+}
+
+.header_description_section__container_register_modal_user_form {
+    width: 61.601%;
+    flex-wrap: nowrap;
+    position: relative;
+    z-index: 1;
+    /*background-color: yellowgreen;*/
+}
