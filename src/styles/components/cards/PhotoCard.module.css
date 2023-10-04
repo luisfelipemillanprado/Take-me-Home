@@ -1,13 +1,12 @@
 /*-----------------------------------*/
-.main_photo_card_gallery {
+.photo_card {
     width: 14.3rem;
     background-color: var(--just-white);
     border: 0.2rem solid var(--tonality-caqui-6);
     border-radius: 1.4rem;
 }
 
-/*---------------main_photo_card_gallery__card_image--------------------*/
-.main_photo_card_gallery__card_image {
+.photo_card_image {
     width: 14rem;
     height: 14rem;
     min-height: 14rem;
@@ -15,7 +14,7 @@
     border-radius: 5% 5% 50% 50% / 5% 5% 15% 15% !important;
 }
 
-.main_photo_card_gallery_card_title div div {
+.photo_card_title div div {
     font-size: 1.4rem !important;
     display: flex;
     padding: 0.5rem 0;
@@ -25,19 +24,19 @@
 }
 
 /*---------------main_photo_card_gallery__ul--------------------*/
-.main_photo_card_gallery ul {
+.photo_card ul {
     border-top: none !important;
     background-color: var(--just-white) !important;
 }
 
 /*---------------main_photo_card_gallery__ul,li--------------------*/
-.main_photo_card_gallery ul li {
+.photo_card ul li {
     margin: 0.2rem 0 !important;
     border-inline-end: none !important;
 }
 
 /*---------------main_photo_card_gallery__action_button--------------------*/
-.main_photo_card_gallery__action_button {
+.photo_card_action_button {
     width: 92% !important;
     height: 3rem !important;
     background: none;
@@ -46,7 +45,7 @@
     position: relative;
 }
 
-.main_photo_card_gallery__divider::after {
+.photo_card_divider::after {
     content: "";
     height: 1.7rem;
     border-right: 1px solid var(--tonality-white-4);
@@ -56,7 +55,7 @@
 }
 
 /*---------------action_button__action_icon--------------------*/
-.main_photo_card_gallery__action_icon {
+.photo_card_action_icon {
     font-size: 1.7rem !important;
     color: var(--tonality-caqui-7);
 }

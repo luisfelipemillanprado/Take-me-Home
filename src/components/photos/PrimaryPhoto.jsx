@@ -10,7 +10,7 @@ export default function PrimaryPhoto(props) {
         ' '
       )}
     >
-      <Image className={styles.primary_photo} src={src} />
+      <Image className={styles.primary_photo} src={src} alt='Pet Image' />
     </div>
   );
 }
