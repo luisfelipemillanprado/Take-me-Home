@@ -1,5 +1,4 @@
 import db from '@pages/api/db.json';
-// --
 /**
  * @description: returns an array with all the pet information.
  * @returns: returns an array with the items.

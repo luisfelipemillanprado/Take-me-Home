@@ -97,11 +97,14 @@
   /*se uso el de abajo de esto*/
   --tonality-turquoise-3: #4db8c0;
   --tonality-turquoise-4: #40cfff;
-  --tonality-turquoise-5: #7cdaf9;
+  --tonality-turquoise-5: rgb(124, 218, 249);
   /*se uso el de abajo de esto*/
   --tonality-turquoise-8: #1677ff;
   /*se uso el de abajo de esto*/
   --tonality-turquoise-9: #118a95;
+  /*se uso el de abajo de esto*/
+  --tonality-turquoise-10: #272e43;
+  --tonality-turquoise-12: #1f2536;
   /* ------------------4------------------ */
   /*se uso el de abajo de esto*/
   --modal-form-register-background-switch-button: #ffffff2a;

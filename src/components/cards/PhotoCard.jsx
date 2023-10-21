@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { Button, Card, Badge } from 'antd';
 import { HeartOutlined, LikeOutlined } from '@ant-design/icons';
 import styles from '@styles/components/cards/PhotoCard.module.css';
-import rstyles from '@styles/responsive/mobile/photocard/BreakingPoints.module.css';
+import rstyles from '@styles/responsive/mobile/cards/PhotoCardR.module.css';
 const { Meta } = Card;
 // --
 export default function PhotoCard(props) {
@@ -14,7 +14,10 @@ export default function PhotoCard(props) {
   };
   const bodyStyleCard = { padding: '0rem' };
   return (
-    <Badge.Ribbon text='Available' color='var(--tonality-green-12)'>
+    <Badge.Ribbon
+      className={[styles.photo_card_ribbon, rstyles.photo_card_ribbon].join(' ')}
+      text='Available'
+    >
       <Card
         className={[styles.photo_card, rstyles.photo_card].join(' ')}
         style={boxShadowStyle}
@@ -23,8 +26,8 @@ export default function PhotoCard(props) {
         cover={
           <Link href={path}>
             <Image
-              width={140}
-              height={140}
+              width={150}
+              height={150}
               className={[styles.photo_card_image, rstyles.photo_card_image].join(' ')}
               src={cover}
               alt='Pet'
@@ -36,14 +39,27 @@ export default function PhotoCard(props) {
           <Button
             key='like'
             type='default'
-            className={styles.photo_card_action_button}
-            icon={<LikeOutlined className={styles.photo_card_action_icon} />}
+            className={[styles.photo_card_action_button, rstyles.photo_card_action_button].join(' ')}
+            icon={
+              <LikeOutlined
+                className={[styles.photo_card_action_icon, rstyles.photo_card_action_icon].join(' ')}
+              />
+            }
           />,
           <Button
             key='heart'
             type='default'
-            className={[styles.photo_card_divider, styles.photo_card_action_button].join(' ')}
-            icon={<HeartOutlined className={styles.photo_card_action_icon} />}
+            className={[
+              styles.photo_card_divider,
+              styles.photo_card_action_button,
+              rstyles.photo_card_action_button,
+              rstyles.photo_card_divider,
+            ].join(' ')}
+            icon={
+              <HeartOutlined
+                className={[styles.photo_card_action_icon, rstyles.photo_card_action_icon].join(' ')}
+              />
+            }
           />,
         ]}
       >

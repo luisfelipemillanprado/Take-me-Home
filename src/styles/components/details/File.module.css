@@ -1,36 +1,43 @@
 /*-----------------------------------*/
-.file_conatiner {
+.file_container {
     width: 100%;
-    padding: 0rem 0.2rem;
-    flex-wrap: nowrap;
     justify-content: flex-start;
-    align-items: normal;
-    /*background-color: gray;*/
 }
 
 .file_wrapper_information {
     width: 100%;
-    /*padding-left: 2.2rem;*/
-    align-items: flex-start;
-    justify-content: flex-start;
-    /*background-color: antiquewhite;*/
+    gap: 0rem !important;
+    padding: 0rem 0.6rem;
 }
 
-.file_wrapper_secondary_information {
+.file_basic_information_container {
     width: 100%;
+    gap: 0rem !important;
+    padding-bottom: 2rem;
+    border-bottom: 0.1rem solid var(--tonality-white-3);
+}
+
+.file_container_contacts_reactions {
+    width: 100%;
+    gap: 0rem !important;
     margin-top: 1.5rem;
-    align-items: flex-start;
-    /*background-color: aqua;*/
+    /*background-color: blue;*/
 }
 
-.file_wrapper_details {
+.file_specific_information_wrapper {
     width: 100%;
-    padding-right: 1rem;
+    gap: 0rem !important;
+    margin-top: 1.5rem;
     /*background-color: bisque;*/
 }
 
-.file_wrapper_story_protector {
+.file_specific_information_container {
     width: 100%;
-    /*padding-left: 1.5rem;
-    /*background-color: blueviolet;*/
+    gap: 0rem !important;
+    padding-right: 0.4rem;
+    /*background-color: yellowgreen;*/
+}
+
+.file_container_additional_information {
+    width: 100%;
 }

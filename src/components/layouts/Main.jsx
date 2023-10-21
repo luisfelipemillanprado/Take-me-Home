@@ -1,6 +1,6 @@
 import bstyles from '@styles/common/Tools.module.css';
 import styles from '@styles/components/layouts/Main.module.css';
-import rstyles from '@styles/responsive/mobile/main/BreakingPoints.module.css';
+import rstyles from '@styles/responsive/mobile/layouts/MainR.module.css';
 // --
 export default function Main(props) {
   return (

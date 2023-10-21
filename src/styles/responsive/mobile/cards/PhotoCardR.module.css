@@ -1,0 +1,264 @@
+/*-----------------------------------*/
+@media screen and (min-width:360px) and (min-height:740px) {
+
+    .photo_card_ribbon {
+        font-size: 1.66rem !important;
+    }
+
+    .photo_card_title div div {
+        font-size: 1.9rem !important;
+        padding: 0.4rem 0;
+    }
+
+    .photo_card_action_button {
+        height: 3.3rem !important;
+    }
+
+    .photo_card_action_icon {
+        font-size: 2.1rem !important;
+    }
+}
+
+/*-----------------------------------*/
+@media screen and (min-width:375px) {
+
+    /*.photo_card_ribbon {
+        font-size: 1.7rem !important;
+        padding: 0.2rem 0.8rem;
+    }*/
+
+    .photo_card_title div div {
+        font-size: 1.74rem !important;
+        padding: 0.3rem 0;
+    }
+
+    .photo_card_action_button {
+        height: 3.3rem !important;
+    }
+
+    .photo_card_action_icon {
+        font-size: 2rem !important;
+    }
+}
+
+@media screen and (min-width:375px) and (min-height:812px) {
+    .photo_card_ribbon {
+        font-size: 1.86rem !important;
+        padding: 0.16rem 0.8rem;
+    }
+
+    .photo_card_title div div {
+        font-size: 2rem !important;
+        padding: 0.4rem 0;
+    }
+
+    .photo_card_action_button {
+        height: 3.5rem !important;
+    }
+
+    .photo_card_divider::after {
+        height: 2rem;
+        top: 0.8rem;
+    }
+
+    .photo_card_action_icon {
+        font-size: 2.2rem !important;
+    }
+}
+
+/*-----------------------------------*/
+@media screen and (min-width:390px) and (min-height:695px) {
+    .photo_card_ribbon {
+        font-size: 1.6rem !important;
+    }
+
+    .photo_card_title div div {
+        font-size: 1.84rem !important;
+    }
+
+    .photo_card_action_button {
+        height: 3.6rem !important;
+    }
+
+    .photo_card_action_icon {
+        font-size: 2.1rem !important;
+    }
+}
+
+/*-----------------------------------*/
+@media screen and (min-width:390px) and (min-height:816px) {
+    .photo_card_ribbon {
+        font-size: 1.84rem !important;
+        padding: 0.18rem 0.8rem;
+    }
+
+    .photo_card_title div div {
+        font-size: 2rem !important;
+    }
+
+    .photo_card_action_icon {
+        font-size: 2.3rem !important;
+    }
+}
+
+/*-----------------------------------*/
+@media screen and (min-width:412px) {
+    .photo_card_ribbon {
+        font-size: 1.84rem !important;
+        padding: 0.1rem 0.8rem;
+    }
+
+    .photo_card_image {
+        height: 15.6rem;
+    }
+
+    .photo_card_title div div {
+        font-size: 2rem !important;
+        padding: 0.4rem 0;
+    }
+
+    .photo_card_action_button {
+        height: 3.6rem !important;
+    }
+
+    .photo_card_action_icon {
+        font-size: 2.3rem !important;
+    }
+}
+
+/*-----------------------------------*/
+@media screen and (min-width:412px) and (min-height:869px) {
+    .photo_card_ribbon {
+        font-size: 1.86rem !important;
+    }
+
+    .photo_card_image {
+        height: 16rem;
+    }
+
+    .photo_card_action_button {
+        height: 3.6rem !important;
+    }
+
+    .photo_card_action_icon {
+        font-size: 2.4rem !important;
+    }
+}
+
+/*-----------------------------------*/
+@media screen and (min-width:412px) and (min-height:892px) {
+    .photo_card_ribbon {
+        font-size: 1.94rem !important;
+    }
+
+    .photo_card_image {
+        height: 16.2rem;
+    }
+
+    .photo_card_action_button {
+        height: 3.7rem !important;
+    }
+
+    .photo_card_action_icon {
+        font-size: 2.44rem !important;
+    }
+}
+
+/*-----------------------------------*/
+@media screen and (min-width:540px) and (min-height:960px) {
+    .photo_card_ribbon {
+        font-size: 2.3rem !important;
+        padding: 0.4rem 0.8rem;
+    }
+
+    .photo_card {
+        border-radius: 3rem 3rem 1.4rem 1.4rem;
+    }
+
+    .photo_card_image {
+        height: 20.6rem;
+    }
+
+    .photo_card_title div div {
+        font-size: 2.4rem !important;
+        padding: 0.3rem 0;
+    }
+
+    .photo_card_action_button {
+        height: 4.8rem !important;
+    }
+
+    .photo_card_divider::after {
+        top: 1.3rem;
+        height: 2.4rem;
+    }
+
+    .photo_card_action_icon {
+        font-size: 2.8rem !important;
+    }
+}
+
+/*-----------------------------------*/
+@media screen and (min-width:600px) and (min-height:960px) {
+    .photo_card_image {
+        height: 23.4rem;
+        border-radius: 12% 12% 0% 0% / 12% 12% 0% 0% !important;
+    }
+
+    .photo_card_title div div {
+        font-size: 2.46rem !important;
+    }
+
+    .photo_card_action_button {
+        height: 5.1rem !important;
+    }
+
+    .photo_card_divider::after {
+        top: 1.4rem;
+        height: 2.5rem;
+    }
+
+    .photo_card_action_icon {
+        font-size: 2.9rem !important;
+    }
+}
+
+/*-----------------------------------*/
+@media screen and (min-width:600px) and (min-height:960px) {
+    .photo_card_image {
+        height: 23.4rem;
+        border-radius: 12% 12% 0% 0% / 12% 12% 0% 0% !important;
+    }
+
+    .photo_card_title div div {
+        font-size: 2.46rem !important;
+    }
+
+    .photo_card_action_button {
+        height: 5.1rem !important;
+    }
+
+    .photo_card_divider::after {
+        top: 1.4rem;
+        height: 2.5rem;
+    }
+
+    .photo_card_action_icon {
+        font-size: 2.9rem !important;
+    }
+}
+
+/*-----------------------------------*/
+@media screen and (min-width:768px) {
+    .photo_card_image {
+        height: 23rem;
+    }
+
+    .photo_card_title div div {
+        font-size: 2.6rem !important;
+    }
+
+    .photo_card_divider::after {
+        top: 1.6rem;
+    }
+}

@@ -1,0 +1,14 @@
+/*-----------------------------------*/
+.delivery_container {
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.delivery_title {
+    font-size: 2rem !important;
+    font-weight: 500 !important;
+    color: var(--home-secondary-text) !important;
+    font-family: var(--font-family-4);
+    margin-bottom: 1.5rem !important;
+    line-height: normal !important;
+}

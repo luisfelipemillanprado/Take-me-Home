@@ -1,0 +1,49 @@
+/*-----------------------------------*/
+.microchip_wrapper {
+    width: 100%;
+    margin-top: 2rem;
+    align-items: flex-start !important;
+    /*background-color: cornflowerblue;*/
+}
+
+.microchip_container_name {
+    margin-bottom: 1.2rem;
+    gap: 0.8rem !important;
+    /*background-color: crimson;*/
+}
+
+.microchip_text_name {
+    font-size: 2.7rem !important;
+    color: var(--home-secondary-text) !important;
+    font-weight: 600 !important;
+    line-height: normal !important;
+    margin-bottom: 0rem !important;
+    /*background-color: blanchedalmond;*/
+}
+
+.microchip_gender_avatar {
+    width: 2.8rem;
+    height: 2.8rem;
+}
+
+.microchip_gender_icon {
+    font-size: 1.8rem;
+}
+
+.microchip_wrapper_location {
+    flex-wrap: nowrap;
+    gap: 0.5rem !important;
+    /* background-color: brown;*/
+}
+
+.microchip_location_icon {
+    font-size: 2rem;
+    color: var(--tonality-white-5);
+}
+
+.microchip_location_text {
+    font-size: 1.8rem;
+    font-family: var(--font-family-4);
+    color: var(--tonality-white-4);
+    line-height: normal;
+}

@@ -8,8 +8,8 @@
 
 /*-------------wraper_mini_photo__mini_photo-------------------*/
 .secondary_photo_image {
-    width: 9rem;
-    height: 9rem;
+    width: 100%;
+    height: 8rem;
     border-radius: 1rem;
     object-fit: cover;
 }

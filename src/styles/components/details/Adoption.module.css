@@ -1,0 +1,7 @@
+.adoption_container {
+    width: 100%;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 0rem !important;
+    /*background-color: aqua;*/
+}

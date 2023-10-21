@@ -1,0 +1,52 @@
+/*-----------------------------------*/
+.footer {
+    width: 100%;
+    background-color: var(--just-white);
+}
+
+.footer_wrapper_all {
+    width: 100%;
+    /*background-color: antiquewhite;*/
+}
+
+.footer_wrapper_purpose {
+    width: 100%;
+    padding: 2.6rem 2.6rem 2rem 2.6rem;
+    background-color: var(--tonality-turquoise-10);
+}
+
+.footer_space {
+    width: 100%;
+    /*background-color: antiquewhite;*/
+}
+
+.footer_title {
+    color: var(--tonality-white-4) !important;
+    font-family: var(--font-family-4);
+}
+
+.footer_primary_title {
+    font-size: 1.96rem !important;
+}
+
+.footer_secondary_title {
+    font-size: 1.86rem !important;
+}
+
+.footer_paragraph {
+    font-size: 1.54rem !important;
+    color: var(--tonality-white-5) !important;
+    font-family: var(--font-family-4);
+}
+
+.footer_wrapper_legal_terms {
+    width: 100%;
+    padding: 1rem 2.6rem;
+    background-color: var(--tonality-turquoise-12);
+}
+
+.footer_link {
+    font-size: 1.54rem !important;
+    color: var(--tonality-white-5) !important;
+    font-family: var(--font-family-4);
+}

@@ -2,8 +2,8 @@
 .protector_card {
     width: 100%;
     font-family: var(--font-family-4);
-    font-weight: 400;
-    font-size: 1.6rem;
+    font-weight: 400 !important;
+    font-size: 1.6rem !important;
 }
 
 .protector_card_avatar {
@@ -19,9 +19,11 @@
 }
 
 .protector_card_title {
-    color: var(--home-secondary-text);
-    font-size: 1.94rem;
-    font-weight: 500;
+    color: var(--home-secondary-text) !important;
+    font-size: 2rem !important;
+    font-weight: 500 !important;
+    line-height: normal !important;
+    margin-bottom: 0rem !important;
 }
 
 .protector_container_rate_adoption {

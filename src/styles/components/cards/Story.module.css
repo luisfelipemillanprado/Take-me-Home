@@ -34,13 +34,15 @@
 
 .story_card_meta {
     font-size: 1.6rem;
-    line-height: 2rem;
-    letter-spacing: 0.04rem;
+    line-height: 2.1rem;
 }
 
 .story_title {
-    font-size: 1.94rem;
-    font-weight: 500;
+    color: var(--home-secondary-text) !important;
+    font-size: 2rem !important;
+    font-weight: 500 !important;
+    line-height: normal !important;
+    margin-bottom: 0rem !important;
 }
 
 .story_card_icon {

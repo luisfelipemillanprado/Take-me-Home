@@ -2,15 +2,16 @@ import { Button } from 'antd';
 import { HeartFilled, ArrowRightOutlined } from '@ant-design/icons';
 import bstyles from '@styles/common/Tools.module.css';
 import styles from '@styles/components/buttons/Adopt.module.css';
+import rstyles from '@styles/responsive/mobile/buttons/AdoptR.module.css';
 // --
 export default function Adopt(props) {
   const { text } = props.params;
   return (
     <Button
       className={[
-        bstyles.button,
         bstyles.wrapper_div_horizontal_center_positioning,
         styles.adopt_button,
+        rstyles.adopt_button,
       ].join(' ')}
       icon={<HeartFilled />}
     >

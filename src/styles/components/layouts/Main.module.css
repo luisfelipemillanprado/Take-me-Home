@@ -4,7 +4,6 @@
     background-color: var(--tonality-turquoise-9);
 }
 
-/*-------------container_auxiliar__container_all-------------------*/
 .main_section__container_all {
     width: 100%;
     position: relative;
@@ -13,7 +12,7 @@
 .main_section__wrapper_all {
     width: 100%;
     margin-top: 2.4rem;
-    padding: 2.5rem 1.3rem;
+    padding: 2rem 1rem 3.6rem 1rem;
     border-radius: 3rem 3rem 0 0;
     background-color: var(--just-white);
 }

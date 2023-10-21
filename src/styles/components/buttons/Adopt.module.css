@@ -3,8 +3,11 @@
     height: 3.3rem;
     color: var(--just-white);
     border: none;
-    font-size: 1.8rem;
+    font-size: 1.84rem;
     background-color: var(--tonality-turquoise-3);
+    box-shadow: none;
+    border-radius: 2rem;
+    font-family: var(--font-family-4);
 }
 
 .adopt_button:hover {
@@ -18,7 +21,6 @@
 }
 
 .adopt_button_right_icon {
-
     transition: all 0.3s;
 }
 

@@ -1,14 +1,12 @@
 // import { useState /* useEffect */ } from 'react';
 import PhotoCard from '@components/cards/PhotoCard';
 import Button from '@components/buttons/Button';
-import Photo1 from '@public/images/gallery/photog_2.jpg';
-import Photo2 from '@public/images/gallery/photog_3.jpeg';
 import { Row, Col, ConfigProvider } from 'antd';
 import bstyles from '@styles/common/Tools.module.css';
 import styles from '@styles/components/gallery/MainPhotoCardGallery.module.css';
 // --
 export default function MainPhotoCardGallery(props) {
-  // const { petsArray } = props.params;
+  const { petsArray } = props.params;
   // const [state /* , setState */] = useState(petsArray);
   // --
   return (
@@ -25,38 +23,11 @@ export default function MainPhotoCardGallery(props) {
             bstyles.wrapper_div_horizontal_center_positioning,
             styles.main_photo_card_gallery__container_photo_card_gallery,
           ].join(' ')}
-          gutter={[24, 26]}
+          gutter={[16, 26]}
         >
-          {[
-            { url: Photo1, id: 'kcmsdcmdsskl', name: 'name' },
-            { url: Photo2, id: 'kcmsdcmdsskk', name: 'name' },
-            { url: Photo1, id: 'kcmsdcmdsskl', name: 'name' },
-            { url: Photo2, id: 'kcmsdcmdsskk', name: 'name' },
-            { url: Photo1, id: 'kcmsdcmdsskl', name: 'name' },
-            { url: Photo2, id: 'kcmsdcmdsskk', name: 'name' },
-            { url: Photo1, id: 'kcmsdcmdsskl', name: 'name' },
-            { url: Photo2, id: 'kcmsdcmdsskk', name: 'name' },
-            { url: Photo1, id: 'kcmsdcmdsskl', name: 'name' },
-            { url: Photo2, id: 'kcmsdcmdsskk', name: 'name' },
-            { url: Photo1, id: 'kcmsdcmdsskl', name: 'name' },
-            { url: Photo2, id: 'kcmsdcmdsskk', name: 'name' },
-            { url: Photo1, id: 'kcmsdcmdsskl', name: 'name' },
-            { url: Photo2, id: 'kcmsdcmdsskk', name: 'name' },
-            { url: Photo1, id: 'kcmsdcmdsskl', name: 'name' },
-            { url: Photo2, id: 'kcmsdcmdsskk', name: 'name' },
-            { url: Photo1, id: 'kcmsdcmdsskl', name: 'name' },
-            { url: Photo2, id: 'kcmsdcmdsskk', name: 'name' },
-            { url: Photo1, id: 'kcmsdcmdsskl', name: 'name' },
-            { url: Photo2, id: 'kcmsdcmdsskk', name: 'name' },
-            { url: Photo1, id: 'kcmsdcmdsskl', name: 'name' },
-            { url: Photo2, id: 'kcmsdcmdsskk', name: 'name' },
-            { url: Photo1, id: 'kcmsdcmdsskl', name: 'name' },
-            { url: Photo2, id: 'kcmsdcmdsskk', name: 'name' },
-            { url: Photo1, id: 'kcmsdcmdsskl', name: 'name' },
-            { url: Photo2, id: 'kcmsdcmdsskk', name: 'name' },
-          ].map((pet) => {
+          {petsArray.map((pet) => {
             return (
-              <Col key={pet.id}>
+              <Col xs={12} sm={12} md={8} key={pet.id}>
                 <PhotoCard
                   params={{
                     cover: pet.url,

@@ -1,19 +1,17 @@
 /*-----------------------------------*/
-.mobile_header__wrapper_bar {
+.nav_bar_wrapper {
     padding: 1.2rem 1.8rem;
     justify-content: space-between;
     position: relative;
     background-color: var(--tonality-turquoise-3);
 }
 
-/*-------------wrapper_bar__container_globals_action_buttons-------------------*/
-.mobile_header__container_globals_action_buttons {
+.nav_bar_container_globals_action_buttons {
     flex-wrap: nowrap;
     /*background-color: chartreuse;*/
 }
 
-/*-------------wrapper_action_buttons__action_button-------------------*/
-.mobile_header__action_button {
+.nav_bar_action_button {
     width: 3.5rem !important;
     height: 3.5rem;
     background-color: transparent;
@@ -22,7 +20,7 @@
     border-radius: 3rem;
 }
 
-.mobile_header__icon {
-    font-size: 2.5rem !important;
+.nav_bar_icon {
+    font-size: 2.4rem !important;
     color: var(--just-white);
 }

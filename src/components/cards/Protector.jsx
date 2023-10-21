@@ -1,8 +1,9 @@
-import { Avatar, Card, ConfigProvider } from 'antd';
+import { Avatar, Card, Typography, ConfigProvider } from 'antd';
 import { HomeFilled, DollarTwoTone, InfoCircleFilled } from '@ant-design/icons';
 import bstyles from '@styles/common/Tools.module.css';
 import styles from '@styles/components/cards/Protector.module.css';
 const { Meta } = Card;
+const { Title } = Typography;
 // --
 export default function Protector(props) {
   const { type, name, adoptionRate, change } = props.params;
@@ -32,7 +33,11 @@ export default function Protector(props) {
               }
             />
           }
-          title={<h3 className={styles.protector_card_title}>{name}</h3>}
+          title={
+            <Title className={styles.protector_card_title} level={3}>
+              {name}
+            </Title>
+          }
           description={
             change ? (
               <div
